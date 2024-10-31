@@ -1,0 +1,50 @@
+
+.flex img{
+   border-radius :50%;
+}
+.flex {
+    display:flex;
+    background-color:hsl(0, 0%, 20%);
+    flex-direction: column;
+    max-width:1440px;
+    min-width :375px; ;
+    height:600px;
+    padding:50px;
+    align-items:center;
+    justify-content:center;
+    border-radius:15px ;
+    word-wrap: break-word;
+      }
+  .flex > div {
+    background-color:hsl(0, 0%, 12%);
+    height:25px;
+    width: 280px;
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    text-align: center;
+    margin:5px;
+    padding:8px;
+    
+
+             }  
+.h1
+{
+    font-family: inter-bold;
+    font-weight: 700;
+    color:hsl(0, 0%, 100%);
+    font-size: 20px;
+} 
+.h2{
+    font-family: inter-semibold;
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    font-weight:600 ;
+}
+.h3{
+    font-family: inter-regular;
+   color:  hsl(0, 0%, 8%);
+   font-size:15px;
+   font-weight: 400;
+   
+  
+} 
